@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Your Name">
+    <title>Your Project Title</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/starter-template.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+        <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+            <a href="https://tradevoice.io" class="d-flex align-items-center text-dark text-decoration-none">
+                <img src="img/tradevoiceIO-logo-blue250.png" alt="TradeVoice Logo" height="40" class="me-2">
+                <span class="fs-4" style="padding-left: 16px;">  Pine Script & ChatGPT [🌲➕🤖]</span>
+            </a>
+        </header>
+        
+
+        <main>
+            <h1>Re-Training ChatGPT On Pine Script</h1>
+            <p class="fs-5 col-md-8">This project contains various Python scripts and files designed to download each
+                chapter of the Pine Script Manual v5 from TradingView and aggregate them into a single text file. This
+                aggregated file is particularly optimized for training a ChatGPT model.</p>
+
+            <div class="mb-5">
+                <a href="project-files/chatgpt_pinescript_training.zip" download
+                    class="btn btn-primary btn-lg px-4">Download Project Files</a>
+            </div>
+
+            <hr class="col-3 col-md-2 mb-5">
+
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h2>Project Files</h2>
+                    <p>Below are the project files included in the downloadable ZIP:</p>
+                    <ul class="icon-list">
+                        <li>`download_chapters.py` - Automates the downloading of each chapter of the Pine Script Manual v5 from TradingView. Each chapter is saved as a separate PDF.
+                        </li>
+                        <li>`combine_pdfs_to_text.py` - Takes all downloaded PDF chapters and merges them into a single text file for easy model training.
+                        </li>
+                        <li>`PineScript_Manual_v5_Combined.txt` - A text file containing all the individual chapters combined. This file is optimized for training ChatGPT.
+                        </li>
+                        <li>`PineScript_Manual_v5_Chapters` - A folder containing the individual PDF chapters of the Pine Script Manual v5, each named according to its chapter title.
+                        </li>
+                    </ul>
+                </div>
+
+                
+                <div class="col-md-6">
+
+                    <h2>Instructions</h2>
+                    <p>Upload the PineScript_Manual_v5_Combined.txt file to ChatGPT, with an instructional training prompt.  For more details, including a sample training prompt, check out:</p>
+                    <ul class="icon-list">
+                        <li><a href="https://tradevoice.io/train-chatgpt-on-pine-script/" target="_blank">Project Blog Post</a></li>
+                        <!-- <li><a href="contributor_profile_link_here">Contributor Profile</a></li> -->
+                    </ul>
+
+                </div>
+            </div>
+        </main>
+
+        <footer class="pt-5 my-5 text-muted border-top">
+            Created by <a href="https://tradevoice.io">TradeVoice (Dallas M.)</a>  with contributions from <a href="https://github.com/shanedemorais"> Shane Demorais</a>
+        </footer>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
